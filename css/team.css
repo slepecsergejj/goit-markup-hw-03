@@ -1,0 +1,29 @@
+.team-main{
+    color: #2E2F42;
+    background-color: #F4F4FD;
+}
+.team-container{
+    width: 1158px;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.team-container-item{
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.team-main h2,
+.team-main h3 {
+    text-align: center;
+}
+.team-main p {
+    text-align: center;
+    color: #434455;
+}
+.team-main li{
+    background-color: #fff;
+    padding: 16px 32px;
+}
