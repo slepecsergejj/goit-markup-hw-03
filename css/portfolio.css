@@ -1,9 +1,26 @@
 .portfolio-main{
     color: #2e2f42;
+    padding: 120px 15px;
 }
+.portfolio-container{
+    width: 1158px;
+    margin: auto;
+}
+.portfolio-container-items{
+   
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 112px;
+    }
 .portfolio-main h2{
     text-align: center;
 }
 .portfolio-main p{
     color: #434455;
+}
+.portfolio-content{
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    padding: 32px 16px;
 }

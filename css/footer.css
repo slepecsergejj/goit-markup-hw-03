@@ -5,8 +5,20 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-
+    padding: 100px 15px;
 }
+.footer-container{
+    width: 1158px;
+    margin: auto;
+}
+.footer-container-items{
+    width: 264px;
+    height: 112px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: start;
+    }
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;

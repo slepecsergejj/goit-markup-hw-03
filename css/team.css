@@ -5,15 +5,13 @@
 .team-container{
     width: 1158px;
     margin: auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 15px;
 }
 .team-container-item{
     display: flex;
-    gap: 72px;
+    gap: 24px;
     justify-content: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 112px;
 }
 .team-main h2,
 .team-main h3 {
@@ -25,5 +23,7 @@
 }
 .team-main li{
     background-color: #fff;
-    padding: 16px 32px;
+}
+.team-content{
+    padding: 32px 16px;
 }
