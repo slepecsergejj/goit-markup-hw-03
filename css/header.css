@@ -2,25 +2,25 @@
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
     line-height: 1.5;
+    border-bottom: 1px solid #E7E9FC;
     
 }
 .header-container{
-    width: 1158px;
     margin: auto;
-    padding: 24px 15px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .header-nav{
     display: flex;
     gap: 40px;
+    padding: 24px 15px;
 }
 .header-nav a {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-decoration: none; 
+    text-decoration: none;
+    display: block;
 }
 .header-logo{
     font-family: "Raleway", sans-serif;
@@ -31,10 +31,12 @@
     font-weight: 700;
     text-decoration: none;
     color: #2E2F42;
+    padding-right: 72px;
 }
 .header-address{
     display: flex;
     gap: 40px;
+    padding-left: 340px;
 
 }
 .header-address a{

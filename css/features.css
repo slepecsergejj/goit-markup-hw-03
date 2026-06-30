@@ -2,26 +2,22 @@
 .features-item h3{
     color:#2e2f42;
 }
-.features-container{
-    width: 1158px;
-    margin: auto;
+.features-item{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.sr-only {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(100%);
-    margin: -1px;
+.features-container{
+    margin: auto;
+   
 }
+
 .features-list {
     display: flex;
     gap: 24px;
     justify-content: space-between;
+}
+.features-list-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }

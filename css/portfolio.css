@@ -3,15 +3,13 @@
     padding: 120px 15px;
 }
 .portfolio-container{
-    width: 1158px;
     margin: auto;
 }
 .portfolio-container-items{
-   
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    margin-top: 112px;
+    margin-top: 48px;
     }
 .portfolio-main h2{
     text-align: center;
@@ -20,6 +18,9 @@
     color: #434455;
 }
 .portfolio-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     border: 1px solid #E7E9FC;
     border-top: none;
     padding: 32px 16px;
