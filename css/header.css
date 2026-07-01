@@ -24,7 +24,7 @@
 .header-nav{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    
 }
 .header-nav a {
     font-weight: 500;
@@ -32,11 +32,15 @@
     color: #2E2F42;
     text-decoration: none;
     display: block;
+    padding: 24px 0;
 }
 .header-address{
     display: flex;
     gap: 40px;
-    padding: 24px 15px 24px 300px;
+    align-items: center;
+    margin: auto;
+    padding-left: 300px;
+    
 
 }
 .header-address a{
@@ -47,6 +51,8 @@
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    padding: 24px 15px 24px;
+    
 }
 .header-item a:hover,
 .header-item a:focus {
