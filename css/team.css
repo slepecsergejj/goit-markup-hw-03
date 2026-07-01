@@ -3,16 +3,13 @@
     background-color: #F4F4FD;
     padding: 120px 15px;
 }
-.team-container{
-    margin: auto;
-    
-}
 .team-container-item{
     display: flex;
     gap: 24px;
     justify-content: center;
     padding-top: 72px;
-    margin-bottom: 8px;
+    border-radius: 0 0 4px 4px;
+
 }
 .team-main h2,
 .team-main h3 {
@@ -29,5 +26,5 @@
     padding: 32px 16px;
 }
 .team-list{
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
 }

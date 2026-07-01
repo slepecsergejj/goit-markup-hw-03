@@ -62,4 +62,6 @@ ul {
 }
 .container{
     width: 1158px;
+    margin: auto;
+    padding: 0 15px;
 }

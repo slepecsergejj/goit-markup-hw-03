@@ -9,7 +9,7 @@
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    margin-top: 48px;
+    margin-top: 72px;
     }
 .portfolio-main h2{
     text-align: center;
@@ -24,4 +24,7 @@
     border: 1px solid #E7E9FC;
     border-top: none;
     padding: 32px 16px;
+}
+.portfolio li{
+    margin-bottom: 24px;
 }
